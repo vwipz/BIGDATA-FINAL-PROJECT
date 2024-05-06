@@ -323,7 +323,7 @@ results_list <- list()
 
 
 # Loop over a subset of song_list
-for (i in 1135:length_list) {
+for (i in 1:length_list) {
   song_title <- song_list[i, 1]  # Assuming first column is song titles
   artist_name <- song_list[i, 2]  # Assuming second column is artist names
   
